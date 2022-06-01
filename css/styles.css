@@ -89,8 +89,10 @@ img {
   max-width: 400px;
 }
 iframe {
-  height: 300px;
-  width: 400px;
+  height: auto;
+  width: 100%;
+  max-height: 300px;
+  max-width: 400px;
 }
 th,
 td {
