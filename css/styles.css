@@ -12,11 +12,22 @@
   color: rgb(255, 255, 255);
   flex-grow: 1;
   padding: 10px 10px;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 nav ul li:hover {
   color: rgb(185, 185, 185);
-  background-color:rgb(0, 0, 0, 0.4);
+  background-color:rgb(0, 0, 0);
+  transform: scale(1.2);
+  transition: all 0.6s;
+}
+.Aplicargrids:hover{
+  transform: scale(1.018);
+  transition: all 0.5s;
+}
+table:hover{
+  transform: scale(1.4) translateY(70px);
+  transition: all 1s;
+
 }
 .menu ul {
   background-color: #0b111a;
@@ -63,7 +74,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #161f2c;
+  background: rgb(22,38,60);
+  background: linear-gradient(180deg, rgba(22,38,60,1) 0%, rgba(22,38,60,1) 0%, rgba(22,31,44,1) 50%, rgba(22,38,60,1) 100%);
 }
 main{
   padding-left: 1%;
@@ -156,7 +168,6 @@ form p {
 }
 .form{
   width: 100%;
-  background-color: #161f2c;
   display: flex;
   flex-direction: column;
   align-items: center;
