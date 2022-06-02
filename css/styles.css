@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 
-.menu li{
+/* .menu li{
   list-style-type: none;
   font-family: 'Commissioner', sans-serif;;
   font-size: 2em;
@@ -13,13 +13,13 @@
   flex-grow: 1;
   padding: 10px 10px;
   border-radius: 10px;
-}
-nav ul li:hover {
+} */
+/* nav ul li:hover {
   color: rgb(185, 185, 185);
   background-color:rgb(0, 0, 0);
   transform: scale(1.2);
   transition: all 0.6s;
-}
+} */
 .Aplicargrids:hover{
   transform: scale(1.018);
   transition: all 0.5s;
@@ -29,14 +29,31 @@ table:hover{
   transition: all 1s;
 
 }
-.menu ul {
+.navbaredits{
   background-color: #0b111a;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  top: 0;
-  padding: 10px 50px 10px 50px;
-  width: 100%;
+  color: rgb(255, 255, 255);
+  padding: 1em;
+}
+.linkmod{
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+
+}
+.navico{
+background-image:url(https://i.ibb.co/rm7KQwS/pngegg.png) ;
+}
+.navalu{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.limod:hover{
+  color: rgb(185, 185, 185);
+  background-color:rgb(0, 0, 0);
+  transform: scale(1.5);
+  transition: all 0.6s;
+  border-radius: 7px;
 }
 a {
   text-decoration: none;
