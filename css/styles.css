@@ -175,9 +175,17 @@ form input {
   font-size: 2em;
 }
 .btnenviar:hover {
-  background-color: #02952e;
   cursor: pointer;
+  animation-name: background-color;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards; 
 }
+@keyframes background-color {
+  100% {
+    background-color: rgb(0, 70, 11);
+  }
+}
+
 
 table {
   background-color: #0b111a;
